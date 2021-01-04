@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<body>
+
+<form method="POST" action="">
+{% csrf_token %}
+
+ if you  are a member<a href="">signin</a> 
+
+<h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+	  
+	  <label for="username"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="username" required></br></br></br>
+	  
+	  <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required></br></br></br>
+	  
+	  
+	  
+	  
+  
+
+     <label for="password1"><b>Password</b></label>
+	  <input type="password" placeholder="Enter Password" name="password1" required></br></br></br>
+	  
+
+
+	  <label for="password2"><b>confirm Password</b></label>
+	  <input type="password" placeholder="Enter Password" name="password2" required></br></br></br>
+	  
+
+	  <label for="age"><b>Age</b></label>
+      <input type="text"  name="age" required></br></br></br>
+
+    Gender<input type="radio" value="M" name="gender">Male
+	<input type="radio" value="M" name="gender">FeMale
+	</br></br></br></br>
+	 <input type="submit">
+	 </form>
+	</body>
+	</html>
+			
